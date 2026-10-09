@@ -1,0 +1,795 @@
+{
+ "passed": 40,
+ "total": 40,
+ "metrics": {
+  "main_length_m": 4828.0,
+  "main_length_studs": 17243.0,
+  "elevation_drop_m": 720.0,
+  "elevation_drop_studs": 2571.0,
+  "main_meaningful_bends": 19,
+  "sections": [
+   {
+    "id": 1,
+    "name": "Summit (Start)",
+    "length_m": 123.0,
+    "drop_m": 5.8,
+    "avg_grad_pct": 4.7,
+    "max_grad_pct": 12.5,
+    "min_radius_m": 49.7,
+    "width_m": 40,
+    "bends": 1
+   },
+   {
+    "id": 2,
+    "name": "High Ridge Run",
+    "length_m": 235.0,
+    "drop_m": 35.2,
+    "avg_grad_pct": 15.0,
+    "max_grad_pct": 15.8,
+    "min_radius_m": 50.0,
+    "width_m": 32,
+    "bends": 2
+   },
+   {
+    "id": 3,
+    "name": "Cliff Descent",
+    "length_m": 203.0,
+    "drop_m": 55.0,
+    "avg_grad_pct": 27.1,
+    "max_grad_pct": 36.4,
+    "min_radius_m": 83.0,
+    "width_m": 24,
+    "bends": 1
+   },
+   {
+    "id": 4,
+    "name": "Forest Run",
+    "length_m": 644.0,
+    "drop_m": 84.3,
+    "avg_grad_pct": 13.1,
+    "max_grad_pct": 25.6,
+    "min_radius_m": 26.6,
+    "width_m": 28,
+    "bends": 2
+   },
+   {
+    "id": 5,
+    "name": "Wide Carve",
+    "length_m": 404.0,
+    "drop_m": 63.7,
+    "avg_grad_pct": 15.8,
+    "max_grad_pct": 17.4,
+    "min_radius_m": 28.9,
+    "width_m": 52,
+    "bends": 4
+   },
+   {
+    "id": 6,
+    "name": "Rocky Pass",
+    "length_m": 265.0,
+    "drop_m": 37.9,
+    "avg_grad_pct": 14.3,
+    "max_grad_pct": 15.4,
+    "min_radius_m": 57.1,
+    "width_m": 26,
+    "bends": 1
+   },
+   {
+    "id": 7,
+    "name": "Tree Section",
+    "length_m": 607.0,
+    "drop_m": 82.4,
+    "avg_grad_pct": 13.6,
+    "max_grad_pct": 15.6,
+    "min_radius_m": 22.9,
+    "width_m": 30,
+    "bends": 2
+   },
+   {
+    "id": 8,
+    "name": "Bridge Section",
+    "length_m": 305.0,
+    "drop_m": 25.1,
+    "avg_grad_pct": 8.2,
+    "max_grad_pct": 15.2,
+    "min_radius_m": 26.9,
+    "width_m": 22,
+    "bends": 1
+   },
+   {
+    "id": 9,
+    "name": "Frozen Lake",
+    "length_m": 217.0,
+    "drop_m": 21.7,
+    "avg_grad_pct": 10.0,
+    "max_grad_pct": 15.1,
+    "min_radius_m": 115.6,
+    "width_m": 34,
+    "bends": 0
+   },
+   {
+    "id": 10,
+    "name": "Mountain Pass",
+    "length_m": 162.0,
+    "drop_m": 30.3,
+    "avg_grad_pct": 18.7,
+    "max_grad_pct": 25.3,
+    "min_radius_m": 47.6,
+    "width_m": 30,
+    "bends": 0
+   },
+   {
+    "id": 11,
+    "name": "Canyon Run",
+    "length_m": 489.0,
+    "drop_m": 73.2,
+    "avg_grad_pct": 15.0,
+    "max_grad_pct": 15.1,
+    "min_radius_m": 22.0,
+    "width_m": 24,
+    "bends": 1
+   },
+   {
+    "id": 12,
+    "name": "Ice Cave",
+    "length_m": 167.0,
+    "drop_m": 21.9,
+    "avg_grad_pct": 13.1,
+    "max_grad_pct": 16.5,
+    "min_radius_m": 31.3,
+    "width_m": 22,
+    "bends": 1
+   },
+   {
+    "id": 13,
+    "name": "S-Curve",
+    "length_m": 241.0,
+    "drop_m": 40.6,
+    "avg_grad_pct": 16.8,
+    "max_grad_pct": 22.9,
+    "min_radius_m": 29.7,
+    "width_m": 40,
+    "bends": 3
+   },
+   {
+    "id": 14,
+    "name": "Steep Slopes",
+    "length_m": 218.0,
+    "drop_m": 65.9,
+    "avg_grad_pct": 30.2,
+    "max_grad_pct": 36.9,
+    "min_radius_m": 63.1,
+    "width_m": 36,
+    "bends": 1
+   },
+   {
+    "id": 15,
+    "name": "Open Fields",
+    "length_m": 205.0,
+    "drop_m": 23.7,
+    "avg_grad_pct": 11.6,
+    "max_grad_pct": 17.5,
+    "min_radius_m": 46.2,
+    "width_m": 58,
+    "bends": 1
+   },
+   {
+    "id": 16,
+    "name": "Final Slopes",
+    "length_m": 207.0,
+    "drop_m": 41.1,
+    "avg_grad_pct": 19.9,
+    "max_grad_pct": 26.7,
+    "min_radius_m": 132.9,
+    "width_m": 40,
+    "bends": 1
+   },
+   {
+    "id": 17,
+    "name": "Village Approach",
+    "length_m": 102.0,
+    "drop_m": 11.2,
+    "avg_grad_pct": 11.0,
+    "max_grad_pct": 21.3,
+    "min_radius_m": 194.5,
+    "width_m": 32,
+    "bends": 0
+   },
+   {
+    "id": 18,
+    "name": "Finish (Valley Plaza)",
+    "length_m": 34.0,
+    "drop_m": 0.7,
+    "avg_grad_pct": 2.0,
+    "max_grad_pct": 3.8,
+    "min_radius_m": 194.4,
+    "width_m": 60,
+    "bends": 0
+   }
+  ],
+  "routes": [
+   {
+    "id": "MAIN",
+    "difficulty": "blue",
+    "length_m": 4828.0,
+    "avg_grad_pct": 14.9,
+    "max_grad_pct": 36.9,
+    "min_radius_m": 22.0,
+    "min_width_m": 22.0
+   },
+   {
+    "id": "G1",
+    "difficulty": "green",
+    "length_m": 1002.0,
+    "avg_grad_pct": 15.7,
+    "max_grad_pct": 22.3,
+    "min_radius_m": 40.7,
+    "min_width_m": 28.5
+   },
+   {
+    "id": "R1",
+    "difficulty": "red",
+    "length_m": 198.0,
+    "avg_grad_pct": 28.5,
+    "max_grad_pct": 60.1,
+    "min_radius_m": 18.6,
+    "min_width_m": 18.0
+   },
+   {
+    "id": "R2",
+    "difficulty": "black",
+    "length_m": 157.0,
+    "avg_grad_pct": 36.9,
+    "max_grad_pct": 72.8,
+    "min_radius_m": 19.7,
+    "min_width_m": 18.0
+   },
+   {
+    "id": "G2",
+    "difficulty": "green",
+    "length_m": 900.0,
+    "avg_grad_pct": 11.2,
+    "max_grad_pct": 22.3,
+    "min_radius_m": 41.1,
+    "min_width_m": 40.0
+   }
+  ],
+  "collision_vs_surface_piste_m": {
+   "mean": 0.021,
+   "p99": 0.1,
+   "max": 0.274,
+   "samples": 6714
+  },
+  "collision_vs_surface_offpiste_m": {
+   "mean": 0.022,
+   "p99": 0.185,
+   "max": 0.441,
+   "samples": 8828
+  },
+  "collision_wedges": 35560,
+  "collision_boxes": 1712,
+  "lowest_catch_floor_studs": -188.1,
+  "mesh_counts": {
+   "templates": 70,
+   "template_parts": 319,
+   "unique_meshes": 411,
+   "instances": 4725
+  },
+  "triangles_unique_by_category": {
+   "Terrain": 338270,
+   "TerrainFar": 87438,
+   "Pistes": 108952,
+   "Bridges": 4108,
+   "IceCave": 3112,
+   "Environment": 2300,
+   "Finish": 1734,
+   "ForestCanopy": 284022
+  },
+  "triangles_instanced_by_category": {
+   "Environment": 8594,
+   "Gondola": 9196,
+   "Start": 832,
+   "Props": 62344,
+   "Buildings": 129728,
+   "Rocks": 420240,
+   "Finish": 6142,
+   "Bridges": 1608,
+   "Forest": 1244148
+  },
+  "checkpoint_groups": 18,
+  "checkpoint_gates": 26
+ },
+ "checks": [
+  {
+   "name": "Main route length within 3% of 4.8 km",
+   "passed": true,
+   "details": {
+    "measured_m": 4828.0,
+    "target_m": 4800.0
+   }
+  },
+  {
+   "name": "Elevation drop = 720 m (+-1 m)",
+   "passed": true,
+   "details": {
+    "measured_m": 720.0
+   }
+  },
+  {
+   "name": "18 course sections in order",
+   "passed": true,
+   "details": {
+    "sections": 18
+   }
+  },
+  {
+   "name": "15-25+ meaningful bends (>=30 deg heading change)",
+   "passed": true,
+   "details": {
+    "count": 19,
+    "largest": [
+     168.3,
+     174.9,
+     176.2,
+     188.6,
+     204.0
+    ]
+   }
+  },
+  {
+   "name": "Main route always downhill before the finish line",
+   "passed": true,
+   "details": {
+    "min_gradient": 0.012
+   }
+  },
+  {
+   "name": "MAIN (blue) meets difficulty rules",
+   "passed": true,
+   "details": {
+    "id": "MAIN",
+    "difficulty": "blue",
+    "length_m": 4828.0,
+    "avg_grad_pct": 14.9,
+    "max_grad_pct": 36.9,
+    "min_radius_m": 22.0,
+    "min_width_m": 22.0,
+    "rule": {
+     "max_grad": 0.38,
+     "avg_grad_max": 0.22,
+     "min_radius": 21.0,
+     "min_width": 20.0
+    }
+   }
+  },
+  {
+   "name": "G1 (green) meets difficulty rules",
+   "passed": true,
+   "details": {
+    "id": "G1",
+    "difficulty": "green",
+    "length_m": 1002.0,
+    "avg_grad_pct": 15.7,
+    "max_grad_pct": 22.3,
+    "min_radius_m": 40.7,
+    "min_width_m": 28.5,
+    "rule": {
+     "max_grad": 0.23,
+     "avg_grad_max": 0.17,
+     "min_radius": 35.0,
+     "min_width": 28.0
+    }
+   }
+  },
+  {
+   "name": "R1 (red) meets difficulty rules",
+   "passed": true,
+   "details": {
+    "id": "R1",
+    "difficulty": "red",
+    "length_m": 198.0,
+    "avg_grad_pct": 28.5,
+    "max_grad_pct": 60.1,
+    "min_radius_m": 18.6,
+    "min_width_m": 18.0,
+    "rule": {
+     "max_grad": 0.62,
+     "avg_grad_min": 0.2,
+     "min_radius": 18.0,
+     "min_width": 14.0
+    }
+   }
+  },
+  {
+   "name": "R2 (black) meets difficulty rules",
+   "passed": true,
+   "details": {
+    "id": "R2",
+    "difficulty": "black",
+    "length_m": 157.0,
+    "avg_grad_pct": 36.9,
+    "max_grad_pct": 72.8,
+    "min_radius_m": 19.7,
+    "min_width_m": 18.0,
+    "rule": {
+     "max_grad": 0.75,
+     "avg_grad_min": 0.25,
+     "min_radius": 18.0,
+     "min_width": 14.0
+    }
+   }
+  },
+  {
+   "name": "G2 (green) meets difficulty rules",
+   "passed": true,
+   "details": {
+    "id": "G2",
+    "difficulty": "green",
+    "length_m": 900.0,
+    "avg_grad_pct": 11.2,
+    "max_grad_pct": 22.3,
+    "min_radius_m": 41.1,
+    "min_width_m": 40.0,
+    "rule": {
+     "max_grad": 0.23,
+     "avg_grad_max": 0.17,
+     "min_radius": 35.0,
+     "min_width": 28.0
+    }
+   }
+  },
+  {
+   "name": "G1 branches and reconnects tangentially",
+   "passed": true,
+   "details": {
+    "branch_main_m": 91.0,
+    "merge_main_m": 1050.4,
+    "pos_err_m": [
+     0.0,
+     0.63
+    ],
+    "heading_err_deg": [
+     0.12,
+     0.26
+    ],
+    "z_err_m": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "R1 branches and reconnects tangentially",
+   "passed": true,
+   "details": {
+    "branch_main_m": 1741.5,
+    "merge_main_m": 2147.2,
+    "pos_err_m": [
+     0.0,
+     0.64
+    ],
+    "heading_err_deg": [
+     0.6,
+     1.54
+    ],
+    "z_err_m": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "R2 branches and reconnects tangentially",
+   "passed": true,
+   "details": {
+    "branch_main_m": 3030.5,
+    "merge_main_m": 3389.9,
+    "pos_err_m": [
+     0.0,
+     0.61
+    ],
+    "heading_err_deg": [
+     1.13,
+     1.3
+    ],
+    "z_err_m": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "G2 branches and reconnects tangentially",
+   "passed": true,
+   "details": {
+    "branch_main_m": 4030.7,
+    "merge_main_m": 4526.4,
+    "pos_err_m": [
+     0.0,
+     1.17
+    ],
+    "heading_err_deg": [
+     0.15,
+     0.4
+    ],
+    "z_err_m": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "Main gates strictly ordered 1..18",
+   "passed": true,
+   "details": {
+    "stations": [
+     8.0,
+     176.0,
+     361.0,
+     570.0,
+     1212.0,
+     1644.0,
+     1853.0,
+     2488.0,
+     2813.0,
+     2984.0,
+     3146.0,
+     3629.0,
+     3838.0,
+     4077.0,
+     4255.0,
+     4464.0,
+     4707.0,
+     4828.0
+    ]
+   }
+  },
+  {
+   "name": "G1 carries equivalent gates for every bypassed group",
+   "passed": true,
+   "details": {
+    "bypassed": [
+     2,
+     3,
+     4
+    ],
+    "equivalent": [
+     2,
+     3,
+     4
+    ],
+    "clearance_from_main_piste_m": [
+     64.9,
+     189.0,
+     243.5
+    ]
+   }
+  },
+  {
+   "name": "R1 carries equivalent gates for every bypassed group",
+   "passed": true,
+   "details": {
+    "bypassed": [
+     7
+    ],
+    "equivalent": [
+     7
+    ],
+    "clearance_from_main_piste_m": [
+     -0.8
+    ]
+   }
+  },
+  {
+   "name": "R2 carries equivalent gates for every bypassed group",
+   "passed": true,
+   "details": {
+    "bypassed": [
+     11
+    ],
+    "equivalent": [
+     11
+    ],
+    "clearance_from_main_piste_m": [
+     12.7
+    ]
+   }
+  },
+  {
+   "name": "G2 carries equivalent gates for every bypassed group",
+   "passed": true,
+   "details": {
+    "bypassed": [
+     14,
+     15,
+     16
+    ],
+    "equivalent": [
+     14,
+     15,
+     16
+    ],
+    "clearance_from_main_piste_m": [
+     19.1,
+     142.6,
+     31.2
+    ]
+   }
+  },
+  {
+   "name": "Collision matches the visual piste surface (p99 <= 0.12 m)",
+   "passed": true,
+   "details": {
+    "p99_m": 0.1,
+    "max_m": 0.274
+   }
+  },
+  {
+   "name": "Collision strips are continuous (no seams > 2 cm)",
+   "passed": true,
+   "details": {
+    "max_seam_m": 0.0,
+    "seams_checked": 1180
+   }
+  },
+  {
+   "name": "Catch floors above FallenPartsDestroyHeight (-500 studs)",
+   "passed": true,
+   "details": {
+    "lowest_catch_floor_studs": -188.1
+   }
+  },
+  {
+   "name": "Bridge deck meets both abutments (gap < 0.25 m)",
+   "passed": true,
+   "details": {
+    "abutment_gap_m": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "Bridge spans a real ravine (clearance > 15 m)",
+   "passed": true,
+   "details": {
+    "max_clearance_m": 46.1,
+    "deck_width_m": 22.0,
+    "span_m": 103.7,
+    "arches": 2
+   }
+  },
+  {
+   "name": "Ice cave: rock cover above the ceiling everywhere",
+   "passed": true,
+   "details": {
+    "min_cover_m": 24.49,
+    "tunnel_length_m": 120.2
+   }
+  },
+  {
+   "name": "Ice cave clearance (height >= 10 m, width >= piste + 4 m)",
+   "passed": true,
+   "details": {
+    "height_m": 11.0,
+    "inner_width_m": 28.0,
+    "lights": 7
+   }
+  },
+  {
+   "name": "No trees / rocks / buildings inside rideable corridors (rock + building footprints checked)",
+   "passed": true,
+   "details": {
+    "violations": 0,
+    "examples": []
+   }
+  },
+  {
+   "name": "No floating objects (base above ground > 0.35 m)",
+   "passed": true,
+   "details": {
+    "violations": 0,
+    "examples": []
+   }
+  },
+  {
+   "name": "Buildings sit on the ground (stone base reaches the lowest footprint corner)",
+   "passed": true,
+   "details": {
+    "worst_base_gap_m": 0.0,
+    "worst_building": "Townhouse",
+    "buildings": 48
+   }
+  },
+  {
+   "name": "Kicker at MAIN s=1407 has a landing (gradient after >= before - 2%, corridor clear)",
+   "passed": true,
+   "details": {
+    "grad_before_pct": 14.5,
+    "grad_landing_pct": 15.8
+   }
+  },
+  {
+   "name": "Kicker at MAIN s=2193 has a landing (gradient after >= before - 2%, corridor clear)",
+   "passed": true,
+   "details": {
+    "grad_before_pct": 12.9,
+    "grad_landing_pct": 14.3
+   }
+  },
+  {
+   "name": "Kicker at MAIN s=3911 has a landing (gradient after >= before - 2%, corridor clear)",
+   "passed": true,
+   "details": {
+    "grad_before_pct": 15.4,
+    "grad_landing_pct": 17.3
+   }
+  },
+  {
+   "name": "Kicker at MAIN s=4382 has a landing (gradient after >= before - 2%, corridor clear)",
+   "passed": true,
+   "details": {
+    "grad_before_pct": 10.3,
+    "grad_landing_pct": 11.3
+   }
+  },
+  {
+   "name": "Kicker at MAIN s=4645 has a landing (gradient after >= before - 2%, corridor clear)",
+   "passed": true,
+   "details": {
+    "grad_before_pct": 24.5,
+    "grad_landing_pct": 26.7
+   }
+  },
+  {
+   "name": "Gondola A cable clearance >= 10 m between stations",
+   "passed": true,
+   "details": {
+    "min_clearance_m": 12.7,
+    "pylons": 8,
+    "cabins": 64,
+    "loop_m": 4559.0
+   }
+  },
+  {
+   "name": "Gondola B cable clearance >= 10 m between stations",
+   "passed": true,
+   "details": {
+    "min_clearance_m": 10.6,
+    "pylons": 5,
+    "cabins": 42,
+    "loop_m": 3015.0
+   }
+  },
+  {
+   "name": "Every mesh within Roblox limits (<= 20k tris, <= 2048 studs per axis)",
+   "passed": true,
+   "details": {
+    "worst_tris": 17514,
+    "worst_extent_studs": 2000.0,
+    "violations": []
+   }
+  },
+  {
+   "name": "Every placement references an exported template",
+   "passed": true,
+   "details": {
+    "instances": 4725
+   }
+  },
+  {
+   "name": "18 checkpoint groups, group 18 = finish",
+   "passed": true,
+   "details": {
+    "groups": 18
+   }
+  },
+  {
+   "name": "16 spawn points behind the start line",
+   "passed": true,
+   "details": {
+    "spawns": 16
+   }
+  }
+ ]
+}

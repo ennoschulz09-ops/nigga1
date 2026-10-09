@@ -1,0 +1,213 @@
+{
+ "name": "SnowyValley",
+ "className": "DataModel",
+ "children": [
+  {
+   "name": "ReplicatedStorage",
+   "className": "ReplicatedStorage",
+   "children": [
+    {
+     "name": "SnowyValleyShared",
+     "className": "Folder",
+     "children": [
+      {
+       "name": "CheckpointTracker",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/CheckpointTracker.luau"
+       ]
+      },
+      {
+       "name": "Config",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/Config.luau"
+       ]
+      },
+      {
+       "name": "Data",
+       "className": "Folder",
+       "children": [
+        {
+         "name": "Checkpoints",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Shared/Data/Checkpoints.luau"
+         ]
+        },
+        {
+         "name": "Environment",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Shared/Data/Environment.luau"
+         ]
+        },
+        {
+         "name": "GondolaData",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Shared/Data/GondolaData.luau"
+         ]
+        },
+        {
+         "name": "RouteData",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Shared/Data/RouteData.luau"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "EnvironmentPreset",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/EnvironmentPreset.luau"
+       ]
+      },
+      {
+       "name": "GondolaClient",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/GondolaClient.luau"
+       ]
+      },
+      {
+       "name": "RouteGraph",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/RouteGraph.luau"
+       ]
+      },
+      {
+       "name": "Types",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Shared/Types.luau"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ServerStorage",
+   "className": "ServerStorage",
+   "children": [
+    {
+     "name": "SnowyValleyServer",
+     "className": "Folder",
+     "children": [
+      {
+       "name": "CollisionBuilder",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Server/CollisionBuilder.luau"
+       ]
+      },
+      {
+       "name": "Data",
+       "className": "Folder",
+       "children": [
+        {
+         "name": "AssetManifest",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Server/Data/AssetManifest.luau"
+         ]
+        },
+        {
+         "name": "CollisionData",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Server/Data/CollisionData.luau"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Importer",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Server/Importer.luau"
+       ]
+      },
+      {
+       "name": "Integration",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Server/Integration.luau"
+       ]
+      },
+      {
+       "name": "RaceRuntime",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Server/RaceRuntime.luau"
+       ]
+      },
+      {
+       "name": "Tests",
+       "className": "Folder",
+       "children": [
+        {
+         "name": "RunTests",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Server/Tests/RunTests.luau"
+         ]
+        },
+        {
+         "name": "Specs",
+         "className": "ModuleScript",
+         "filePaths": [
+          "src/Server/Tests/Specs.luau"
+         ]
+        }
+       ]
+      },
+      {
+       "name": "World",
+       "className": "ModuleScript",
+       "filePaths": [
+        "src/Server/World.luau"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ServerScriptService",
+   "className": "ServerScriptService",
+   "children": [
+    {
+     "name": "SnowyValleyBootstrap",
+     "className": "Script",
+     "filePaths": [
+      "src/ServerScripts/SnowyValleyBootstrap.server.luau"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "StarterPlayer",
+   "className": "StarterPlayer",
+   "children": [
+    {
+     "name": "StarterPlayerScripts",
+     "className": "StarterPlayerScripts",
+     "children": [
+      {
+       "name": "SnowyValleyGondola",
+       "className": "LocalScript",
+       "filePaths": [
+        "src/ClientScripts/SnowyValleyGondola.client.luau"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
